@@ -1,0 +1,25 @@
+# ---- Python environment ----
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# ---- Dataset: do not redistribute (see README, Dataset section) ----
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*.csv
+data/processed/*.txt   # run logs contain local file paths
+
+# ---- Files that embed the dataset ----
+excel/*.xlsx
+excel/*.xlsm
+powerbi/*.pbix
+
+# ---- Editor / OS noise ----
+.vscode/
+.DS_Store
+Thumbs.db
+~$*
+
+# ---- Personal interview notes (keep private) ----
+INTERVIEW_PREP.md
