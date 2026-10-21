@@ -2,7 +2,7 @@
 
 An end-to-end analytics project on the Sample Superstore retail dataset, using **Excel, Python, MySQL and Power BI**. The goal is to find where the business makes and loses money, and to recommend actions backed by the data.
 
-
+> **Author:** [Deekshith1009](https://github.com/Deekshith1009)
 
 ---
 
